@@ -1,0 +1,380 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    background-color: rgba(247, 240, 232, 0.141);
+}
+#main{
+    padding:3vw 20vw;
+    padding-bottom: 0.5vw;
+    font-family: 'DM SANs','Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 12.2vw 14vw 14vw 12.2vw;
+    grid-template-rows:16vw 3vw 8vw 12vw;
+    grid-gap: 20px;
+}
+.social{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: hsl(256, 67%, 59%);
+    padding: 2vw;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.social h1{
+    display: inline;
+    font-size: 3.3vw;
+    line-height: 3.3vw;
+    word-spacing:-2px;
+    font-weight: 500;
+}
+.social p{
+    display: inline;
+    color:  hsl(39, 100%, 71%);
+}
+.social img{
+   margin-top: 16px;
+   height:15%;
+   width:40%;
+}
+.social h3{
+    font-size: 1.1vw;
+    font-weight: 300;
+    opacity: 0.8;
+    word-spacing: 2.8px;
+    margin-top: 5px;
+}
+.manage{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding:15px;
+    border-radius: 10px;
+    padding-right: 0;
+}
+.manage img{
+    height:36.5%;
+    width:100%;
+    object-position: left;
+    object-fit: cover;
+}
+.manage h2{
+    font-size:1.5vw;
+    text-align: left;
+    padding-right:50px;
+    font-weight: 550;
+    line-height: 1.5vw;
+    font-weight: 500;
+    word-spacing: -1.3px;
+    letter-spacing: -0.5px;
+
+}
+.maintain{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding:15px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.maintain h2{
+    font-size:1.5vw;
+    text-align: left;
+    padding-right: 40px;
+    font-weight: 550;
+    line-height: 1.3vw;
+    word-spacing: -1.3px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    margin-bottom: 12px;
+
+}
+.maintain img{
+    height:47%;
+    width:100%;
+    object-fit:cover;
+    object-position: top;
+}
+.schedule{
+    grid-column: 4/5;
+    grid-row: 1/4;
+    background-color: hsl(0, 0%, 100%);
+    padding:35px 22px;
+    padding-right: 0;
+    border-radius: 10px;
+    background-color: hsl(254, 88%, 90%);
+}
+.schedule img{
+    height:60%;
+    width:99.7%;
+    object-position: left;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.schedule h2{
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: 500;
+    line-height: 1.5vw;
+    margin-bottom: 15px;
+    letter-spacing: -1.2px;
+}
+.schedule p{
+    font-size: 13px;
+    padding-right: 15px;
+}
+.grow{
+    display: flex;
+    grid-column: 3/5;
+    grid-row: 4;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 10px;
+    padding: 18px;
+    justify-content: space-between;
+}
+.grow h1{
+    font-size: 1.9vw;
+    padding-top: 25px;
+    padding-left: 10px;
+    line-height: 0.9;
+    color: white;
+    font-weight: 500;
+}
+.grow img{
+    width:65%;
+}
+.faster{
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 2/3;
+    grid-row:4/5 ;
+    padding:18px;
+    padding-top:12px;
+    border-radius: 10px;
+}
+.faster h1{
+    font-size: 2.9vw;
+    font-weight: 500;
+}
+.faster p{
+    font-size: 1vw;
+    padding-top: 5px;
+    margin-bottom: 1.8vw;
+}
+.faster img{
+    height:35%;
+    width:85%;
+    object-fit: fill;
+}
+.create{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    background-color: hsl(32, 65%, 92%);
+    border-radius: 10px;
+    padding:3.5vw 1.6vw;
+}
+.create h2{
+    font-size: 1.9vw;
+    line-height: 0.9;
+    font-weight: 550;
+    word-spacing: -1.3px;
+    letter-spacing: -1.9px;
+    font-weight: 500;
+}
+.create i{
+    color:hsl(256, 67%, 59%);
+}
+.create img{
+    height:32%;
+    width:100%;
+    object-fit: fill;
+    margin-top:15px;
+}
+.write{
+    border-radius: 10px;
+    grid-column: 1/2;
+    grid-row: 3/5;
+    background-color: hsl(39, 100%, 71%);
+    padding:18px;
+    padding-right: 10px;
+}
+.write h2{
+    font-size: 1.9vw;
+    line-height: 0.9;
+    word-spacing: -1.3px;
+    letter-spacing: -1.9px;
+    font-weight: 500;
+    padding-right: 20px;
+    margin-bottom: 2.9vw;
+}
+.write img{
+    height: 58%;
+    width:100%;
+    object-fit: fill;
+}
+@media (max-width:376px) {
+    #main{
+        display: initial;
+        padding:0;
+        margin:0;
+    }
+    .social{
+        height:35%;
+        width:90%;
+        margin:20px;
+        padding:33px;
+        border-radius: 10px;
+    }
+    .social h1{
+        font-size: 35px;
+        line-height: 0.8;
+        padding:0px 20px;
+        display: block;
+
+    }
+    .social img{
+       margin-top: 13px;
+       height:17%;
+       width:54%;
+    }
+    .social h3{
+        font-size: 15px;
+    }
+    .manage{
+        height: 20%;
+        width:90%;
+        margin:20px;
+        padding:15px;
+    }
+    .manage img{
+        height:47%;
+    }
+    .manage h2{
+        font-size:20px;
+        text-align:none;
+        padding-right:0px;
+        line-height: 1;
+    }
+    .maintain{
+        height:27%;
+        width:90%;
+        margin:20px;
+    }
+    
+    .maintain h2{
+        font-size:20px;
+        text-align: left;
+        padding-right: 40px;
+        font-weight: 500;
+        line-height: 1;
+    
+    }
+    .maintain img{
+        padding-right: 36%;
+        height:64.5%;
+    }
+    .schedule{
+        height:60%;
+        width:90%;
+        margin:20px;
+        padding:15px;
+    }
+    .schedule img{
+        height:80%;
+        width:100%;
+        object-fit: fill;
+    }
+    .schedule h2{
+        font-size: 23px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .schedule p{
+        font-size: 13px;
+        text-align: center;
+        padding-right: 15px;
+    }
+    .grow{
+        height:45%;
+        width:90%;
+        display:block;
+        margin:20px;
+        padding: 18px 50px;
+    }
+    .grow h1{
+        font-size: 22px;
+        text-align: center;
+        padding:0px 20px;
+        padding-top: 20px;
+    }
+    .grow img{
+        width:80%;
+        height: 70%;
+        object-fit: fill;
+    }
+    .faster{
+        height:25%;
+        width:90%;
+        margin:20px;
+        padding:18px;
+    }
+    .faster h1{
+        font-size: 28px;
+    }
+    .faster p{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .faster img{
+        height:40%;
+        width:55%;
+    }
+    .create{
+        height:30;
+        width:90%;
+        margin:20px;
+        padding:20px;
+    }
+    .create h2{
+        font-size: 22px;
+        line-height: 0.9;
+        word-spacing: 0;
+        letter-spacing: -1px;
+    }
+    .create img{
+        height:20%;
+        width:60%;
+    }
+    .write{
+        height:45%;
+        width:90%;
+        margin:20px;
+        padding:18px;
+    }
+    .write h2{
+        font-size: 22px;
+        line-height: 0.9;
+        word-spacing: 0;
+        letter-spacing: 0;
+        margin-bottom: 17px;
+    }
+    .write img{
+        height: 85%;
+        width:75%;
+    }
+}
